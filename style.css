@@ -430,3 +430,146 @@ li button{
     height: 40px;
     width: 40px;
 }
+@media screen and (max-width:650px){
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .list{
+        display: none;
+    }
+    .one{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .left-one{
+        display: flex;
+        flex-direction: column;
+    }
+    .left-one h1{
+        font-size: 40px;
+        width: 300px;
+        margin: 0;
+    }
+    .left-one p{
+        font-size: 20px;
+        width: 300px;
+    }
+    .right-one{
+        display: flex;
+    }
+    .right-one img{
+        width: 250px;
+        height: 200px;
+        position: relative;
+        left: -30px;
+    }
+    .two{
+        display: flex;
+        flex-direction: column;    
+    }
+    .left-two{
+        display: flex;
+        flex-direction: column;
+    }
+    .left-two img{
+        width: 250px;
+        height: 200px;
+        position: relative;
+        left: -30px;
+    }
+    .right-two{
+        display: flex;
+        flex-direction: column;
+    }
+    .right-two h1{
+        font-size: 40px;
+        position: relative;
+        left: -420px;
+        width: 300px;
+    }
+    .right-two p{
+        font-size: 20px;
+        position: relative;
+        left: -420px;
+        width: 300px;
+ 
+    }
+    .right-two button{
+        position: relative;
+        left: -530px;
+    }
+    .three{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-three h1{
+        font-size: 40px;
+        width: 300px;
+        margin: 0;
+    }
+    .left-three p{
+        font-size: 20px;
+        width: 300px;
+    }
+    .right-three img{
+        width: 300px;
+        height: 240px;
+        position: relative;
+        left: 30px;       
+    }               
+    .services{
+        display: flex;
+        flex-direction: column;
+    }
+    .services h1{
+        font-size: 40px;
+        width: 300px;
+    }   
+    .services p{
+        font-size: 20px;
+        width: 300px;
+    }
+    .services-list{
+        display: flex;
+        flex-direction: column;
+    }
+    .srv-one, .srv-two{
+        margin-left: 25px;
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        margin-left: -540px;
+    }
+    .comment{
+        display: flex;
+        flex-direction: column;
+    }
+    .comment h1{
+        font-size: 40px;
+        width: 300px;
+        margin-left: 20px;
+    }
+    .comment p{
+        font-size: 20px;
+        width: 300px;
+        margin-left: 30px;
+    }
+    .banner{
+        height: fit-content;
+    }  
+    .footer{
+        display: flex;
+        flex-direction: column;
+    } 
+}
