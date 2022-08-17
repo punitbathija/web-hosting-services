@@ -431,6 +431,7 @@ li button{
     width: 40px;
 }
 @media screen and (max-width:650px){
+
     body{
         display: flex;
         flex-direction: column;
@@ -439,9 +440,14 @@ li button{
     nav{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        margin: auto;
     }
     .list{
-        display: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
     }
     .one{
         display: flex;
